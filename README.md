@@ -16,6 +16,7 @@ Discord bot that will help your users by announcing the pokemon that just appear
 If you need any help setting this up, feel free to open an issue.
 
 **How it works**
+
 This bot works with a database of hashes for every pokemon image, every hash corresponds to a pokemon name. When pokecord announces that a wild pokemon has appeared, the bot gets the image and converts it into a .jpg. It then hashes it and finds the value in the map.
 
 
